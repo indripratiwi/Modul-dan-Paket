@@ -1,0 +1,38 @@
+import MODUL.rumusTBK
+
+def main():
+#class volumeTabung
+	r = 5
+  t = 7
+
+	volumeTabung = MODUL.rumusTBK.volumeTabung(r, t)
+
+	print("VOLUME TABUNG")
+	print("Jari-jari\t: ", r)
+  print("Tinggi\t: ", t)
+	print("Volume tabung\t\t: ", volumeTabung)
+
+#class volumeKubus
+	s = 5
+
+	volumeKubus = MODUL.rumusTBK.volumeKubus(s)
+
+	print("VOLUME KUBUS")
+	print("Sisi\t: ", s)
+	print("Volume kubus\t\t: ", volumeKubus)
+
+#class volumeBalok
+	p = 5
+  l = 3
+  t = 7
+
+	volumeBalok = MODUL.rumusTBK.volumeBalok(p, l, t)
+
+	print("VOLUME BALOK")
+	print("Panjang\t: ", p)
+  print("Lebar\t: ", l)
+  print("Tinggi\t: ", t)
+	print("Volume balok\t\t: ", volumeBalok)
+
+if __name__ == "__main__":
+	main()
