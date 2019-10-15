@@ -1,0 +1,13 @@
+import MODUL.rumusTBK
+
+def main():
+	s = 5
+
+	volumeKubus = MODUL.rumusTBK.volumeKubus(s)
+
+	print("VOLUME KUBUS")
+	print("Sisi\t: ", s)
+	print("Volume kubus\t\t: ", volumeKubus)
+
+if __name__ == "__main__":
+	main()
