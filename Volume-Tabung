@@ -1,0 +1,15 @@
+import MODUL.rumusTBK
+
+def main():
+	r = 5
+  t = 7
+
+	volumeTabung = MODUL.rumusTBK.volumeTabung(r, t)
+
+	print("VOLUME TABUNG")
+	print("Jari-jari\t: ", r)
+  print("Tinggi\t: ", t)
+	print("Volume tabung\t\t: ", volumeTabung)
+
+if __name__ == "__main__":
+	main()
