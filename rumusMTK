@@ -1,0 +1,10 @@
+import math
+
+def volumeTabung(r, t):
+	return math.pi * r * r * t
+
+def volumeBalok(p, l, t):
+	return p * l * t
+
+def volumeKubus(s):
+	return s * s * s
