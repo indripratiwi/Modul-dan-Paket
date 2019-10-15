@@ -1,0 +1,17 @@
+import MODUL.rumusTBK
+
+def main():
+	p = 5
+  l = 3
+  t = 7
+
+	volumeBalok = MODUL.rumusTBK.volumeBalok(p, l, t)
+
+	print("VOLUME BALOK")
+	print("Panjang\t: ", p)
+  print("Lebar\t: ", l)
+  print("Tinggi\t: ", t)
+	print("Volume balok\t\t: ", volumeBalok)
+
+if __name__ == "__main__":
+	main()
